@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 
 const Users = ({ users, loading }) => {
-    if(loading) {
+    if (loading) {
         return <Spinner />
     } else {
         return (
@@ -15,7 +15,7 @@ const Users = ({ users, loading }) => {
                 ))}
             </div>
         );
-    }     
+    }
 }
 
 Users.propTypes = {
